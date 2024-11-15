@@ -21,14 +21,16 @@ public class JdbcApp {
 
             System.out.println("Id"+"\t"+"F_Name"+"\t"+"L_Name"+"\t"+"Email");
             while (resultSet.next()) {
-                System.out.println(resultSet.getInt("student_id")+ "\t"+
-                        resultSet.getString("student_fname") + "\t"+
-                        resultSet.getString("student_lname") + "\t"+
-                        resultSet.getString("student_email") + "\t"
+                System.out.println(
+                                    resultSet.getInt("student_id")       + "\t" +
+                                    resultSet.getString("student_fname") + "\t" +
+                                    resultSet.getString("student_lname") + "\t" +
+                                    resultSet.getString("student_email") + "\t"
                 );
             }
             //step 6: close the connection
             connection.close();
         }
+
     }
 
