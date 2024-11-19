@@ -1,8 +1,8 @@
-package CourceDao;
+package service;
 
-import Model.Course;
+import model.Course;
 
-public class CourseService {
+public class CourceService {
     public void addCourse(Course course){
 
     }
@@ -13,9 +13,6 @@ public class CourseService {
 
     }
     public Course getCourseById(int courseId){
-        return null;
-    }
-
-    public List<Course> getAllCourses() {
+        return courseDao.getAllCourses();
     }
 }

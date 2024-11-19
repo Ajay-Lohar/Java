@@ -1,6 +1,6 @@
 package dao;
 
-import Model.Course;
+import model.Course;
 
 public class CourceDao {
     public void addCourse(Course course){
@@ -14,6 +14,7 @@ public class CourceDao {
 
     }
     public Course getCourseById(int courseId){
+
         return null;
     }
 }

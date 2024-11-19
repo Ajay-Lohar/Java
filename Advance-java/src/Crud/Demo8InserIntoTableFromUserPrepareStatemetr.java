@@ -3,7 +3,7 @@ package Crud;
 import java.sql.*;
 import java.util.Scanner;
 
-public class Demo7InserIntoTableFromUserPrepareStatemetr {
+public class Demo8InserIntoTableFromUserPrepareStatemetr {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
 
