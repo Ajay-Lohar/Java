@@ -8,7 +8,6 @@ public class Demo13Throws {
             System.out.println("invalid denominator");
         }
     }
-
     //un-checked exception are implicitly propagated to caller method. no need of throws
     private static int divide(int number1, int number2)  {
         int division = number1 / number2;
