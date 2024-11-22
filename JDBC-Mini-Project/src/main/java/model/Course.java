@@ -1,14 +1,11 @@
-package Model;
-
-
+package model;
 import lombok.*;
-
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
 @Builder
 @Data
-public class Course {
+public class Course{
     private int id;
     private String name;
     private String description;

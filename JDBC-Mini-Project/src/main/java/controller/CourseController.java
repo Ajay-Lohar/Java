@@ -1,14 +1,17 @@
-package controller;
-import CourceDao.CourseService;
-import Model.Course;
 
+package controller;
+
+import model.Course;
+import service.CourseService;
+
+import java.sql.SQLException;
 import java.util.List;
 
 public class CourseController {
 
     CourseService courseService = new CourseService();
 
-    public void addCourse(Course course) {
+    public void addCourse(Course course) throws SQLException {
         courseService.addCourse(course);
     }
 
