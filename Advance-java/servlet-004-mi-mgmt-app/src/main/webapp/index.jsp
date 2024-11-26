@@ -1,6 +1,6 @@
 <html>
 <body>
-<h2>Mumbai Indians Management App</h2>
+<h2 >Mumbai Indians Management App</h2>
 <hr/>
         <table>
             <tr>

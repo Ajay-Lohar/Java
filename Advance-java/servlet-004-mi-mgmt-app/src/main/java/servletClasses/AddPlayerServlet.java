@@ -8,6 +8,7 @@ import model.Players;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.sql.ResultSet;
 
 @WebServlet("/addPlayer.java")
 public class AddPlayerServlet implements Servlet {
@@ -26,19 +27,23 @@ public class AddPlayerServlet implements Servlet {
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
         System.out.println("AddPlayerServlet:Service");
-        String pname = servletRequest.getParameter("name");
-        String pcountry = servletRequest.getParameter("country");
-        String prole = servletRequest.getParameter("role");
-        int page =Integer.parseInt(servletRequest.getParameter("age"));
+        String name = servletRequest.getParameter("name");
+        String country = servletRequest.getParameter("country");
+        String role = servletRequest.getParameter("role");
+        int age =Integer.parseInt(servletRequest.getParameter("age"));
+        int id =Integer.parseInt(servletRequest.getParameter("id"));
 
-        Players players= Players.builder()
-                .pname(pname)
-                .pcountry(pcountry)
-                .prole(prole)
-                .page(page)
+        Players player= Players.builder()
+                .pid(id)
+                .pname(name)
+                .pcountry(country)
+                .prole(role)
+                .page(age)
                 .build();
+
         PlayerController playerController = new PlayerController();
-        playerController.addPlayer(players);
+        playerController.addPlayer(player);
+
 
         PrintWriter writer = servletResponse.getWriter();
         writer.println("Player Added Successfully");
