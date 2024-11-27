@@ -1,19 +1,19 @@
 <html>
 <body>
-<h2 >Mumbai Indians Management App</h2>
+<div style="text-align: center; color:blue;"><h1 >Mumbai Indians Management App</h1></div>
 <hr/>
         <table>
             <tr>
                 <td>  <a href="addPlayer.html">Add New Player</a></td>
             </tr>
             <tr>
-                <td> <a href="editPlayer.html">Edit  Player </a></td>
+                <td> <a href="editplayer.html">Edit  Player </a> Not Working</td>
             </tr>
             <tr>
-                <td><a href="deletePlayer.html"> Delete One  Player </a></td>
+                <td><a href="deleteplayer.html"> Delete One  Player </a></td>
             </tr>
             <tr>
-                <td> <a href="getAllPlayers.html">Get All Players </a></td>
+                <td> <a href="getAllPlayer.html">Get All Players </a></td>
             </tr>
         </table>
 </body>
