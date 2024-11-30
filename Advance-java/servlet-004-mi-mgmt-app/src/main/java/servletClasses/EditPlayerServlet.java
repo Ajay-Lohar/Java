@@ -19,7 +19,7 @@ public class EditPlayerServlet implements Servlet {
 
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
-        System.out.println("edit player name ");
+
 
     }
 
