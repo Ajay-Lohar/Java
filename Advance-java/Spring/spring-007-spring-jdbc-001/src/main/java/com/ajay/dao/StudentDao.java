@@ -47,6 +47,18 @@ public class StudentDao {
         System.out.println("Student delete successfully");
     }
 
+    public Student getStudentById(int id) {
+        String sql = "select * from student where id = "+id;
+        Student student = jdbcTemplate.queryForObject(sql, Student.class);
+        return student;
+    }
 
 
+
+
+//    public List<Student> getAll(int id) {
+////      String sql = "select * from student";
+//        Student student = jdbcTemplate.queryForObject("SELECT * FROM student WHERE id ="+id, Student.class, 1);
+//        return student ;
+//    }
 }

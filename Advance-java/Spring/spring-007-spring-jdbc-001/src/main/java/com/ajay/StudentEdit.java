@@ -11,10 +11,10 @@ public class StudentEdit {
         public static void main(String[] args) {
 
             Student student = Student.builder()
-                    .id(1)
-                    .name("Ajay Lohar")
+                    .id(5)
+                    .name("Jayraj Deshmukh")
                     .age(23)
-                    .email("loharajay0019@gmail.com")
+                    .email("jayraj789@gmail.com")
                     .build();
 
             ApplicationContext context = new AnnotationConfigApplicationContext(SpringCfg.class);

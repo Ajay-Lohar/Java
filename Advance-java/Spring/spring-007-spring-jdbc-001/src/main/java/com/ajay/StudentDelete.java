@@ -11,7 +11,7 @@ public class StudentDelete {
         public static void main(String[] args) {
 
             Student student = Student.builder()
-                    .id(1001)
+                    .id(5)
                     .build();
             ApplicationContext context = new AnnotationConfigApplicationContext(SpringCfg.class);
             StudentController studentController = context.getBean(StudentController.class);
