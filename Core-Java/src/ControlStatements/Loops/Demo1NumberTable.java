@@ -1,6 +1,6 @@
 package ControlStatements.Loops;
 
-public class Demo1 {
+public class Demo1NumberTable {
     public static void main(String[] args) {
       int number = 9;
         for (int i = 1; i <= 10; i++) {

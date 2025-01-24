@@ -2,7 +2,7 @@ package ControlStatements.Loops;
 
 public class Demo8DivisionWithoutOperator {
     public static void main(String[] args) {
-        int  number1 = 23 ;
+        int  number1 = 29 ;
         int  number2 = 6 ;
         int sub = 0 ;
         for(;number2<=number1;){

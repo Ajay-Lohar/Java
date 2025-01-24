@@ -1,6 +1,6 @@
 package ControlStatements.Loops;
 
-public class Demo4 {
+public class Demo4Factors {
     public static void main(String[] args) {
        //factors
         int number = 10;

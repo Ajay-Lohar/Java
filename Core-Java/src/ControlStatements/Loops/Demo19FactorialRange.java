@@ -12,3 +12,4 @@ public class Demo19FactorialRange {
         }
     }
 }
+//  6 = 1*2*3*4*5*6 = 720 --> like thise
