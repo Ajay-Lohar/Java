@@ -2,9 +2,9 @@ package ControlStatements.Loops.Patterns;
 
 public class Demo12Advance {
     public static void main(String[] args) {
-        for (int row=1 ;row<=5;row++) {
+        for (int row=1 ;row<=4;row++) {
             //spaces
-            for (int space=0 ;space<=5-row;space++){
+            for (int space=0 ;space<=4-row;space++){
                 System.out.print("   ");
             }
 
