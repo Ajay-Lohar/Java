@@ -1,4 +1,4 @@
-package WriteenTest.ThinketiveB;
+package WriteenTest.ThinketiveSetD;
 
 public class Q1Pattern {
 //    1       5

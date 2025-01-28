@@ -9,15 +9,15 @@ public class Demo14Advance {
             }
            //values
             for (int value=1;value<=row;value++){
-                System.out.print("* ");
+                System.out.print("*");
             }
             System.out.println();
         }
     }
 }
 //output:-
-//        * * * * *
-//         * * * *
-//          * * *
-//           * *
-//            *
+//     *****
+//      ****
+//       ***
+//        **
+//         *
