@@ -1,0 +1,7 @@
+Constunts      --> mysql
+Controller     --> controller
+Service        --> service
+Dao            --> main bussiness logic
+Model          --> object data
+ConnectionUtil --> connnection 
+ServletPages   --> java Programme

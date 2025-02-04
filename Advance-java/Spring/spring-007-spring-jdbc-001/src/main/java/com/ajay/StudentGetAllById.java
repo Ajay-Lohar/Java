@@ -15,8 +15,8 @@ public class StudentGetAllById {
             ApplicationContext context = new AnnotationConfigApplicationContext(SpringCfg.class);
             StudentController studentController = context.getBean(StudentController.class);
 
-            Student student = studentController.getStudentById(3);
-            System.out.println(student);
+//            Student student = studentController.getStudentById(3);
+//            System.out.println(student);
 //            List<Student> studentList = studentController.getAll();
         }
 }

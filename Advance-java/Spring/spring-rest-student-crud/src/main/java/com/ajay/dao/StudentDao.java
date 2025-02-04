@@ -49,4 +49,5 @@ public class StudentDao {
         Student student =jdbcTemplate.query(sql,preparedStatementSetter, resultSetExtractor);
         return student;
     }
+
 }

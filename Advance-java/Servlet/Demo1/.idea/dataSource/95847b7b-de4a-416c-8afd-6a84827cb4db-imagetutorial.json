@@ -1,0 +1,142 @@
+{
+  "name" : "imagetutorial",
+  "TABLES" : [ {
+    "TABLE_NAME" : "image",
+    "TABLE_COMMENT" : "",
+    "IS_TEMPORARY" : "N"
+  } ],
+  "PROCEDURES" : [ ],
+  "FUNCTIONS" : [ ],
+  "VIEWS" : [ ],
+  "ALL_COLUMNS" : [ {
+    "COLUMN_NAME" : "imageFileName",
+    "COLUMN_COMMENT" : "",
+    "COLUMN_DEFAULT" : null,
+    "DATASET_NAME" : "image",
+    "POSITION" : 2,
+    "DATA_TYPE_NAME" : "varchar",
+    "DECL_TYPE_OWNER" : null,
+    "DECL_TYPE_PROGRAM" : null,
+    "DECL_TYPE_NAME" : null,
+    "DATA_LENGTH" : 100,
+    "DATA_PRECISION" : null,
+    "DATA_SCALE" : null,
+    "IS_SET" : "N",
+    "IS_NULLABLE" : "Y",
+    "IS_HIDDEN" : "N",
+    "IS_PRIMARY_KEY" : "N",
+    "IS_FOREIGN_KEY" : "N",
+    "IS_UNIQUE_KEY" : "N",
+    "IS_IDENTITY" : "N"
+  }, {
+    "COLUMN_NAME" : "imageId",
+    "COLUMN_COMMENT" : "",
+    "COLUMN_DEFAULT" : null,
+    "DATASET_NAME" : "image",
+    "POSITION" : 1,
+    "DATA_TYPE_NAME" : "int",
+    "DECL_TYPE_OWNER" : null,
+    "DECL_TYPE_PROGRAM" : null,
+    "DECL_TYPE_NAME" : null,
+    "DATA_LENGTH" : null,
+    "DATA_PRECISION" : 10,
+    "DATA_SCALE" : 0,
+    "IS_SET" : "N",
+    "IS_NULLABLE" : "N",
+    "IS_HIDDEN" : "N",
+    "IS_PRIMARY_KEY" : "Y",
+    "IS_FOREIGN_KEY" : "N",
+    "IS_UNIQUE_KEY" : "N",
+    "IS_IDENTITY" : "N"
+  } ],
+  "DATASET_COLUMNS" : [ {
+    "COLUMN_NAME" : "imageFileName",
+    "COLUMN_COMMENT" : "",
+    "COLUMN_DEFAULT" : null,
+    "POSITION" : 2,
+    "DATA_TYPE_NAME" : "varchar",
+    "DECL_TYPE_OWNER" : null,
+    "DECL_TYPE_PROGRAM" : null,
+    "DECL_TYPE_NAME" : null,
+    "DATA_LENGTH" : 100,
+    "DATA_PRECISION" : null,
+    "DATA_SCALE" : null,
+    "IS_SET" : "N",
+    "IS_NULLABLE" : "Y",
+    "IS_HIDDEN" : "N",
+    "IS_PRIMARY_KEY" : "N",
+    "IS_FOREIGN_KEY" : "N",
+    "IS_UNIQUE_KEY" : "N",
+    "IS_IDENTITY" : "N"
+  }, {
+    "COLUMN_NAME" : "imageId",
+    "COLUMN_COMMENT" : "",
+    "COLUMN_DEFAULT" : null,
+    "POSITION" : 1,
+    "DATA_TYPE_NAME" : "int",
+    "DECL_TYPE_OWNER" : null,
+    "DECL_TYPE_PROGRAM" : null,
+    "DECL_TYPE_NAME" : null,
+    "DATA_LENGTH" : null,
+    "DATA_PRECISION" : 10,
+    "DATA_SCALE" : 0,
+    "IS_SET" : "N",
+    "IS_NULLABLE" : "N",
+    "IS_HIDDEN" : "N",
+    "IS_PRIMARY_KEY" : "Y",
+    "IS_FOREIGN_KEY" : "N",
+    "IS_UNIQUE_KEY" : "N",
+    "IS_IDENTITY" : "N"
+  } ],
+  "DATASET_CONSTRAINTS" : [ {
+    "DATASET_NAME" : "image",
+    "CONSTRAINT_NAME" : "pk_image",
+    "CONSTRAINT_TYPE" : "PRIMARY KEY",
+    "FK_CONSTRAINT_OWNER" : null,
+    "FK_CONSTRAINT_NAME" : null,
+    "IS_ENABLED" : "Y",
+    "CHECK_CONDITION" : null
+  } ],
+  "ALL_CONSTRAINTS" : [ {
+    "DATASET_NAME" : "image",
+    "CONSTRAINT_NAME" : "pk_image",
+    "CONSTRAINT_TYPE" : "PRIMARY KEY",
+    "FK_CONSTRAINT_OWNER" : null,
+    "FK_CONSTRAINT_NAME" : null,
+    "IS_ENABLED" : "Y",
+    "CHECK_CONDITION" : null
+  } ],
+  "ALL_DATASET_TRIGGERS" : [ ],
+  "DATASET_TRIGGERS" : [ ],
+  "ALL_INDEXES" : [ {
+    "INDEX_NAME" : "PRIMARY",
+    "TABLE_NAME" : "image",
+    "IS_UNIQUE" : "N",
+    "IS_VALID" : "Y"
+  } ],
+  "DATASET_INDEXES" : [ {
+    "INDEX_NAME" : "PRIMARY",
+    "IS_UNIQUE" : "N",
+    "IS_VALID" : "Y"
+  } ],
+  "DATASET_CONSTRAINT_COLUMNS" : [ {
+    "COLUMN_NAME" : "imageId",
+    "CONSTRAINT_NAME" : "pk_image",
+    "POSITION" : 1
+  } ],
+  "ALL_CONSTRAINT_COLUMNS" : [ {
+    "DATASET_NAME" : "image",
+    "COLUMN_NAME" : "imageId",
+    "CONSTRAINT_NAME" : "pk_image",
+    "POSITION" : 1
+  } ],
+  "DATASET_INDEX_COLUMNS" : [ {
+    "COLUMN_NAME" : "imageId",
+    "INDEX_NAME" : "PRIMARY"
+  } ],
+  "ALL_INDEX_COLUMNS" : [ {
+    "TABLE_NAME" : "image",
+    "COLUMN_NAME" : "imageId",
+    "INDEX_NAME" : "PRIMARY"
+  } ]
+}

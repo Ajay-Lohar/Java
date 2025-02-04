@@ -6,7 +6,6 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.PreparedStatementSetter;
 import org.springframework.stereotype.Repository;
 
-import java.util.List;
 
 @Repository
 public class StudentDao {
@@ -47,11 +46,6 @@ public class StudentDao {
         System.out.println("Student delete successfully");
     }
 
-    public Student getStudentById(int id) {
-        String sql = "select * from student where id = "+id;
-        Student student = jdbcTemplate.queryForObject(sql, Student.class);
-        return student;
-    }
 
 
 

@@ -22,7 +22,7 @@ public class StudentController {
     public void deleteStudent(Student student) {
         studentService.deleteStudent(student);
     }
-    public Student getStudentById(int id){return studentService.getStudentById(id);}
+//    public Student getStudentById(int id){return studentService.getStudentById(id);}
 
 
 
