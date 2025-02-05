@@ -1,0 +1,32 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ä†™Äşÿÿÿÿ
+\
+java:S1854":Remove this useless assignment to local variable "array2".(±ğÚúÿÿÿÿ8˜½¥åÇ1
+[
+java:S1854"9Remove this useless assignment to local variable "array".(¯„Óÿûÿÿÿÿ8ÏÑ åÇ1
+X
+java:S1854
+"6Remove this useless assignment to local variable "a5".(ãŒ“ûûÿÿÿÿ8è¢ŸåÇ1
+S
+java:S1854	"6Remove this useless assignment to local variable "a4".(ò¢Üğ8é¢ŸåÇ1
+S
+java:S1854"6Remove this useless assignment to local variable "a3".(í¤ì•8é¢ŸåÇ1
+S
+java:S1854"6Remove this useless assignment to local variable "a2".(İğ¶¡8ê¢ŸåÇ1
+X
+java:S1854"6Remove this useless assignment to local variable "a1".(´°â–ÿÿÿÿÿ8ê¢ŸåÇ1
+I
+java:S1481"'Remove this unused "a1" local variable.(´°â–ÿÿÿÿÿ8ø¢ŸåÇ1
+D
+java:S1481"'Remove this unused "a2" local variable.(İğ¶¡8ù¢ŸåÇ1
+D
+java:S1481"'Remove this unused "a3" local variable.(í¤ì•8ú¢ŸåÇ1
+D
+java:S1481	"'Remove this unused "a4" local variable.(ò¢Üğ8û¢ŸåÇ1
+I
+java:S1481
+"'Remove this unused "a5" local variable.(ãŒ“ûûÿÿÿÿ8‡£ŸåÇ1
+L
+java:S1481"*Remove this unused "array" local variable.(¯„Óÿûÿÿÿÿ8ØÑ åÇ1
+M
+java:S1481"+Remove this unused "array2" local variable.(±ğÚúÿÿÿÿ8±½¥åÇ1

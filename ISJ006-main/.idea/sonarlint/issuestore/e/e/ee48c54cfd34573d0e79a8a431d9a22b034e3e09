@@ -1,0 +1,8 @@
+
+o
+java:S1104"MMake p a static final constant or non-public and provide accessors if needed.(Ê—Ûöıÿÿÿÿ8¥ÕÓ€Â1
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äÿìX
+L	java:S106"+Replace this use of System.out by a logger.(²É²¶ûÿÿÿÿ8áÖÚ€Â1
+L	java:S106"+Replace this use of System.out by a logger.(÷èş‹ùÿÿÿÿ8âÖÚ€Â1
+G	java:S106"+Replace this use of System.out by a logger.(ÿ–‰¾8äÖÚ€Â1
+G	java:S106"+Replace this use of System.out by a logger.(Ú²¤ã8ºíÛ€Â1

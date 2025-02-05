@@ -1,0 +1,27 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚¢éúÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µ¬öô
+m
+java:S1854"RRemove this useless assignment to local variable "numberOfProductsAddedToTheCart".(„¥å¦ÿÿÿÿÿ
+^
+java:S1854"CRemove this useless assignment to local variable "productQuantity".(ı¥ÜÃúÿÿÿÿ
+P
+java:S1854"5Remove this useless assignment to local variable "A".(‚¢éúÿÿÿÿ
+P
+java:S1854"5Remove this useless assignment to local variable "a".(ò†äıÿÿÿÿ
+V
+java:S1854"@Remove this useless assignment to local variable "variableName".(ÒÕŞĞ
+G
+java:S1481"1Remove this unused "variableName" local variable.(ÒÕŞĞ
+A
+java:S1481"&Remove this unused "a" local variable.(ò†äıÿÿÿÿ
+A
+java:S1481"&Remove this unused "A" local variable.(‚¢éúÿÿÿÿ
+O
+java:S1481"4Remove this unused "productQuantity" local variable.(ı¥ÜÃúÿÿÿÿ
+^
+java:S1481"CRemove this unused "numberOfProductsAddedToTheCart" local variable.(„¥å¦ÿÿÿÿÿ
+<
+java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙ
+F
+java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äğ1

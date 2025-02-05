@@ -1,0 +1,18 @@
+
+r
+java:S1192"PDefine a constant instead of duplicating this literal "Product Price: " 3 times.( “îÄşÿÿÿÿ8¬ßò¶¿1
+o
+java:S1192"MDefine a constant instead of duplicating this literal "Product Id: " 3 times.(»©ìúÿÿÿÿ8®ßò¶¿1
+q
+java:S1192"ODefine a constant instead of duplicating this literal "Product Name: " 3 times.(šˆµùÿÿÿÿ8°ßò¶¿1
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ç˜¯ç
+L	java:S106"+Replace this use of System.out by a logger.(»©ìúÿÿÿÿ8Ğ×¶¿1
+L	java:S106"+Replace this use of System.out by a logger.(šˆµùÿÿÿÿ8Ğ×¶¿1
+L	java:S106"+Replace this use of System.out by a logger.( “îÄşÿÿÿÿ8Ğ×¶¿1
+G	java:S106"+Replace this use of System.out by a logger.(¸ô ˆ8ÇÙÜ¶¿1
+L	java:S106"+Replace this use of System.out by a logger.(ßù­úÿÿÿÿ8ÉÙÜ¶¿1
+G	java:S106"+Replace this use of System.out by a logger.(ÉÔ‘—8ÊÙÜ¶¿1
+F	java:S106 "+Replace this use of System.out by a logger.(Æ“”@8½ñ¶¿1
+G	java:S106""+Replace this use of System.out by a logger.(±ğâŸ8æßò¶¿1
+G	java:S106#"+Replace this use of System.out by a logger.(Ÿ§Ÿğ8èßò¶¿1
+L	java:S106$"+Replace this use of System.out by a logger.(éãŸäøÿÿÿÿ8éßò¶¿1

@@ -1,0 +1,15 @@
+
+2
+java:S1700"Rename field "a"(ò†äıÿÿÿÿ8Ç»ó®Á1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°‡×ô8È»ó®Á1
+]	java:S125"<This block of commented-out lines of code should be removed.(ŞıæÅúÿÿÿÿ8Õ»ó®Á1
+G	java:S106
+"+Replace this use of System.out by a logger.(öÀÀª8Ö»ó®Á1
+X	java:S125"<This block of commented-out lines of code should be removed.(ïÉƒ8ä¿ó®Á1
+G	java:S106"+Replace this use of System.out by a logger.(Û…‰¸8Ø»ó®Á1
+{
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8Ø»ó®Á1
+L	java:S106"+Replace this use of System.out by a logger.(¦˜¥ şÿÿÿÿ8Ù»ó®Á1
+]	java:S125"<This block of commented-out lines of code should be removed.(–¼’ˆûÿÿÿÿ8¦Úó®Á1
+G	java:S106!"+Replace this use of System.out by a logger.(ÈÙË8¼¬÷®Á1
+F	java:S106$"+Replace this use of System.out by a logger.(øÌÆD8Òôú®Á1

@@ -1,0 +1,13 @@
+
+c
+java:S1192"FDefine a constant instead of duplicating this literal "Rohan" 4 times.(ÕûˆÏ8›¿ÎÃ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Şàİøÿÿÿÿ8›¿ÎÃ1
+R
+java:S1854"5Remove this useless assignment to local variable "i".(òÇ· 8¦›¿ÎÃ1
+L	java:S106"+Replace this use of System.out by a logger.(ğ·„İùÿÿÿÿ8«›¿ÎÃ1
+G	java:S106"+Replace this use of System.out by a logger.(Ïš†Ş8¬›¿ÎÃ1
+L	java:S106"+Replace this use of System.out by a logger.(Ÿ±ûÿÿÿÿ8®›¿ÎÃ1
+L	java:S106"+Replace this use of System.out by a logger.(˜¯ñºÿÿÿÿÿ8¯›¿ÎÃ1
+G	java:S106"+Replace this use of System.out by a logger.(êé²¥8°›¿ÎÃ1
+C
+java:S1481"&Remove this unused "i" local variable.(òÇ· 8±›¿ÎÃ1

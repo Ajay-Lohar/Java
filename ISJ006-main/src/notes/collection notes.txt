@@ -1,0 +1,127 @@
+java.lang.Iterable(I)
+- Iterator iterator();
+java.util.Iterator(I)
+	- hasNext
+	- next
+	- remove
+
+Collection(I) extends Iterable
+	- add
+	- addAll
+	- remove
+	- removeAll
+	- removeIf
+	- clear
+	- retainAll
+	- contains
+	- containsAll
+	- size
+	- isEmpty
+
+
+List<I> extends Collection<I>
+	- we can store multiple elements which can be of same type or different type.
+	- duplicate
+	- insertion order
+
+List implementations:
+	-  ArrayList
+	- LinkedList
+	- Vector
+	- Stack
+
+
+Features of ArrayList<C>
+	-  it is a concrete class present in java.util package
+	- it is used store multiple values as single unit
+	- we can store homogenous as well heterogeneous elements
+	- we can store duplicate elements
+	- we can store any number of null values
+	- it is a linear data structure which is built on resizable or growable array data structure
+	- it is not thread safe.
+
+How ArrayList works?
+	- ArrayList internally maintains an array of Object
+	- once the array is full, it will create new array and copy the content of old array into new array
+
+What is capacity in ArrayList?
+ 	- default capacity is 10. It is the length of internal array created
+	- we can customize the array capacity by specifying the capacity in the ArrayList constructor.
+	- new capacity will be = 1.5 * old capacity  + 1
+
+What are the advantages of ArrayList?
+	- elements are stored in a sequential manner so retrieval of element is best
+	- there is no shortage of memory spaces
+
+What are the disadvantages of ArrayList?
+	- it is worst choice if the frequent operation is data manipulation as there will be lot of shifting of elements
+	- there will be lot of wastage of memory space
+
+Operations on ArrayList?
+	1. add(object): add a single element in the collection at the end
+	2. add(index, object): add a single element in the collection at specified index
+	3. addAll(Collection): add multiple values in the collection at the end
+	4. addAll(index, Collection): add multiple values in the collection at specified index
+	5. remove(index): remove element from the collection at a specified index
+	6. removeAll(collection): remove multiple elements from the given collection
+	7. removeIf(predicate): remove element from the collection based on condition or criterion
+	8. retainAll(collection): remove all element from the collection except specified elements
+	9. clear(): remove all element from the collection
+	10. isEmpty(): returns true if the collection is empty else false
+	11. size(): returns the size of the collection i.e. number elements present in the collection
+	12. contains(object): returns true if the collection contains the specified element else it will return false
+	13. containsAll(collection): returns true if the collection contains the specified collection else it will return false
+
+
+
+
+# How Retrieve the collection elements?
+	1. Directly print the  collection
+	2. Using traditional for loop
+	3. Using enhanced for loop
+	4. Using java 8 way. :  collection.forEach(consumer);
+	5. Using cursors such as Iterator
+
+
+
+# How to sort Collection elements?
+ 	- use Collections.sort
+	- Collection(I) - it is an interface
+	- Collections(C) - it is a concrete class which is a utility class present in java.util package
+		- this class contains several methods such as search, sort, min, max ………..
+
+
+
+Comparable<I>
+- it is an interface which contains a method
+    - int compareTo(Object o);
+- using Comparable,we can perform single field sorting.
+- we cannot perform multiple field sorting.
+- we have to make changes in existing class.
+
+
+- Collections.sort() accepts a list of elements which are of type Comparable
+- In order to perform sorting, internally, sort() method calls compareTo() method
+
+
+# Comparator(I)
+    - compare(obj1, obj2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

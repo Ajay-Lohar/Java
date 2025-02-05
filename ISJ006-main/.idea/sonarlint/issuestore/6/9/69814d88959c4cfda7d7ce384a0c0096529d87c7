@@ -1,0 +1,32 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùğ‘Â
+E	java:S106"+Replace this use of System.out by a logger.(û…ĞŸşÿÿÿÿ
+?	java:S106"+Replace this use of System.out by a logger.(•¼«
+E	java:S106"+Replace this use of System.out by a logger.(ƒíãìıÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(³˜Ñİ
+?	java:S106	"+Replace this use of System.out by a logger.(ŒÌ¼J
+E	java:S106
+"+Replace this use of System.out by a logger.(öŞäÖşÿÿÿÿ
+L	java:S106"+Replace this use of System.out by a logger.(Äœ€ªúÿÿÿÿ8¤Âİ…®1
+J
+java:S1125"(Remove the unnecessary boolean literals.(Äœ€ªúÿÿÿÿ8­Âİ…®1
+m
+java:S1764"KCorrect one of the identical sub-expressions on both sides of operator "=="(Äœ€ªúÿÿÿÿ8¯Âİ…®1
+G	java:S106"+Replace this use of System.out by a logger.(ìÁÖò8²Âİ…®1
+E
+java:S1125"(Remove the unnecessary boolean literals.(ìÁÖò8µÂİ…®1
+h
+java:S1764"KCorrect one of the identical sub-expressions on both sides of operator "!="(ìÁÖò8·Âİ…®1
+G	java:S106"+Replace this use of System.out by a logger.(ŸãÕæ8¥´ß…®1
+E
+java:S1125"(Remove the unnecessary boolean literals.(ŸãÕæ8¦´ß…®1
+G	java:S106"+Replace this use of System.out by a logger.(ËÚ–8Õ·à…®1
+E
+java:S1125"(Remove the unnecessary boolean literals.(ËÚ–8Ö·à…®1
+h
+java:S1764"KCorrect one of the identical sub-expressions on both sides of operator "!="(ËÚ–8Ö·à…®1
+L	java:S106"+Replace this use of System.out by a logger.(à‡Áëúÿÿÿÿ8×·à…®1
+J
+java:S1125"(Remove the unnecessary boolean literals.(à‡Áëúÿÿÿÿ8Ø·à…®1
+m
+java:S1764"KCorrect one of the identical sub-expressions on both sides of operator "=="(à‡Áëúÿÿÿÿ8Ù·à…®1

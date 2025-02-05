@@ -1,0 +1,1 @@
+this is a file which contains text data. we can write multiple strings using file writerAwe can write multiple strings using file writer

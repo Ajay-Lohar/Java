@@ -1,0 +1,13 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º—áŽþÿÿÿÿ
+t	java:S115
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(íƒÿÆúÿÿÿÿ
+{
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8’üþèÆ1
+`
+java:S1124
+"EReorder the modifiers to comply with the Java Language Specification.(íƒÿÆúÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(šØœ£
+Q	java:S125"<This block of commented-out lines of code should be removed.(É»î‘
+E	java:S106"+Replace this use of System.out by a logger.(î¢¤Èþÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(è–ãöýÿÿÿÿ

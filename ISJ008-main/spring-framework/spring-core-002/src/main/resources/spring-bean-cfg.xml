@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean class="com.itshaala.model.Course" scope="prototype">
+        <!--<property name="id" value="101"/>
+        <property name="name" value="Spring Framework"/>
+        <property name="description" value="It is a hands on class live and recorded"/>
+        <property name="coursePrice" value="99"/>-->
+        <constructor-arg name="id" value="102"/>
+        <constructor-arg name="name" value="Full Stack Python"/>
+        <constructor-arg name="description" value="Live class only"/>
+        <constructor-arg name="coursePrice" value="199"/>
+    </bean>
+
+</beans>

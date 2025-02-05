@@ -1,0 +1,9 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†è™÷ÿÿÿÿÿ8ü®Ñä¾1
+L	java:S106"+Replace this use of System.out by a logger.(áÛûÿÿÿÿ8‚¯Ñä¾1
+L	java:S106"+Replace this use of System.out by a logger.(äš‡Àûÿÿÿÿ8ø”Òä¾1
+G	java:S106"+Replace this use of System.out by a logger.(£Êù’8÷Ùİä¾1
+a
+java:S3358"DExtract this nested ternary operation into an independent statement.(÷ğ·¼8¼£İä¾1
+a
+java:S3358"DExtract this nested ternary operation into an independent statement.(Ÿ‡Ò¶8ôğŞä¾1

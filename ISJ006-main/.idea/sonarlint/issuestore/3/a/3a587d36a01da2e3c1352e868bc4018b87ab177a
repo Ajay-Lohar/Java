@@ -1,0 +1,12 @@
+
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÇÚ«8ŽË¬¡Ä1
+H
+java:S2387"&"a" is the name of a field in "Child".(ô‹ùóúÿÿÿÿ8¢Ë¬¡Ä1
+W
+java:S1161":Add the "@Override" annotation above this method signature(–ºî§8«Ë¬¡Ä1
+Q
+java:S1117"4Rename "a" which hides the field declared at line 4.(ûª±Å8¬Ë¬¡Ä1
+F	java:S106"+Replace this use of System.out by a logger.(üÅÞj8°Ë¬¡Ä1
+L	java:S106	"+Replace this use of System.out by a logger.(èžƒÆÿÿÿÿÿ8²Ë¬¡Ä1
+L	java:S106
+"+Replace this use of System.out by a logger.(‘»§ïþÿÿÿÿ8´Ë¬¡Ä1
