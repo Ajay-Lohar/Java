@@ -25,7 +25,7 @@
         <commons-lang.version>3.8.1</commons-lang.version>
         <jjwt.version>0.9.1</jjwt.version>
         <modelmapper.version>2.3.0</modelmapper.version>
-        <spring-swagger2.version>2.9.2</spring-swagger2.version>
+        <spring-swagger2.version>2.10.0</spring-swagger2.version>
     </properties>
 
     <dependencies>
