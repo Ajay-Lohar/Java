@@ -7,11 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Demo1Application {
 
 	public static void main(String[] args) {
-		System.out.println("hello world");
-		System.out.println(MyController.myMethod());
-
 		SpringApplication.run(Demo1Application.class, args);
-
+		int a= 10;
+		int b = 20;
+		System.out.println(a+b);
 	}
 
 }
