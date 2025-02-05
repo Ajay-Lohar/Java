@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="joined-table-or-table-per-subclass-strategy" />
+        <module name="jdbc-001" />
+        <module name="composition-has-a" />
+        <module name="saving-collections-data" />
+        <module name="jdbc-orm" />
+        <module name="hibernate-crud-app-02" />
+        <module name="expense-mgr-app" />
+        <module name="jsp-001" />
+        <module name="hibernate-001" />
+        <module name="hibernate-crud-app" />
+        <module name="single-table-strategy" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="expense-mgr-app" options="-parameters" />
+    </option>
+  </component>
+</project>
