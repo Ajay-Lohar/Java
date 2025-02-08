@@ -80,6 +80,6 @@ public class SpringBoot7JdbcCrudApplication implements CommandLineRunner {
 //            System.out.println("city  :- "+user.getCity());
 //            System.out.println("----------------------------");
 //        }
-
+//
    }
 }
