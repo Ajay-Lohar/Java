@@ -16,6 +16,7 @@ public class StudentServiceIMPL implements StudentService {
 
     @Override
     public boolean addStudentDetails(Student std) {
+
         boolean status =false;
 
         try {
