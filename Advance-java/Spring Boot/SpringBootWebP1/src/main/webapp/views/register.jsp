@@ -1,4 +1,3 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +21,7 @@
     Name : <input type="text" name="name"> <br> <br> 
     Email : <input type="text" name="email"> <br> <br>
     Password : <input type="password" name="password"> <br> <br> 
-    Phone No : <input type="tel" name="phone"> <br> <br>
+    Phone No : <input type="tel" name="phoneno"> <br> <br>
     <input type="submit" value="Register">
 </form> 
 
