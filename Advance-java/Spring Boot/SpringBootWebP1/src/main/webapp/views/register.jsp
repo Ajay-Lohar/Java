@@ -24,7 +24,10 @@
     Phone No : <input type="tel" name="phoneno"> <br> <br>
     <input type="submit" value="Register">
 </form> 
+<br><br>
 
+
+if alredy registered <a href="loginPage" ><b>Click Here </b></a>
 
 </body>
 <script src="js/script.js" ></script>

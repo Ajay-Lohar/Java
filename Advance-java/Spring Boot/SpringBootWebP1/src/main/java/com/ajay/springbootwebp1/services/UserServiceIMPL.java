@@ -22,4 +22,16 @@ public class UserServiceIMPL implements UserService{
 
         }
     }
+
+    @Override
+    public User loginUser(String email, String password) {
+
+       User validUser =  userReporesitory.findByEmail(email);
+
+       if (validUser != null && validUser.getPassword().equals(password)) {
+
+           return validUser;
+       }
+        return null;
+    }
 }
