@@ -5,27 +5,23 @@
     <title>Title</title>
 </head>
 <body>
-<h2>Register here </h2>
+<h2>Login here </h2>
 
-<DIV th:if="${SuccessMsg}">
-    <h3 STYLE="color: green" th:text="${SuccessMsg}"> </h3>
-</DIV>
+
 
 <DIV th:if="${ErrorMsg}">
     <h3 STYLE="color: RED" th:text="${ErrorMsg}"> </h3>
 </DIV>
 
-<form th:action="@{/regForm}"  th:object="${user}" method="post">
-    Name : <input type="text"  th:field="*{name}"><br><br>
+<form th:action="@{/loginForm}"  th:object="${user}" method="post">
     Email : <input type="text" th:field="*{email}"><br><br>
     Password : <input type="text"  th:field="*{password}"><br><br>
-    Phoneno : <input type="text" th:field="*{phoneno}"><br><br>
 
-    <input type="submit" value="Register">
+    <input type="submit" value="Login">
 </form>
 <br><br><br>
 <a href="index.html">Home</a><br>
-<a href="loginPage">login</a>
+<a href="regPage">Register</a>
 
 
 </body>
