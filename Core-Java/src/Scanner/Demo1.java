@@ -17,7 +17,6 @@ public class Demo1 {
 
         System.out.println("the First number is "+num1);
         System.out.println("the Second number is "+num2);
-//        System.out.println("the Second number is "+num2);
 
     }
 }
