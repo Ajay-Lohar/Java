@@ -5,18 +5,25 @@ import com.ajay.onlinefoodordering.model.Cart;
 import com.ajay.onlinefoodordering.model.User;
 import com.ajay.onlinefoodordering.repository.CartRepository;
 import com.ajay.onlinefoodordering.repository.UserRepository;
+import com.ajay.onlinefoodordering.request.LoginRequest;
 import com.ajay.onlinefoodordering.response.AuthResponse;
 import com.ajay.onlinefoodordering.service.CustomerUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
+import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.Collection;
 
 @RestController
 @RequestMapping("/auth")
@@ -38,6 +45,8 @@ public class AuthController {
     private CartRepository cartRepository;
 
 
+
+    @PostMapping("/signup")
     public ResponseEntity<AuthResponse>createUserHandler(@RequestBody User user ) throws Exception {
 
         User isEmailExist = userRepository.findByEmail(user.getEmail());
@@ -70,4 +79,38 @@ public class AuthController {
     }
 
 
+    public  ResponseEntity <AuthResponse> signIn(@RequestBody LoginRequest req ){
+        String username = req.getEmail();
+        String password = req.getPassword();
+
+        Authentication authentication = authonticate(username,password);
+
+        String jwt = jwtProvider.generateToken(authentication);
+
+        AuthResponse authResponse = new AuthResponse();
+        authResponse.setJwt(jwt);
+        authResponse.setMassage("Registered user success ");
+        Collection<? extends GrantedAuthority>authorities = authentication.getAuthorities();
+
+        String  role = authorities.isEmpty()?null:authorities.iterator().next().getAuthority();
+//        authResponse.setRole(savedUser.getRole());
+
+        return new ResponseEntity<>(authResponse, HttpStatus.OK);
+
+
+
+    }
+
+    private Authentication authonticate(String username, String password) {
+
+        UserDetails userDetails =customerUserDetailsService.loadUserByUsername(username);
+
+        if (userDetails == null){
+            throw new BadCredentialsException("Invalid username or password");
+        }
+        if (!passwordEncoder.matches(password,userDetails.getPassword())){
+            throw new BadCredentialsException("Invalid password");
+        }
+        return new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
+    }
 }
