@@ -2,6 +2,7 @@ package com.ajay.onlinefoodordering.controller;
 
 import com.ajay.onlinefoodordering.config.JwtProvider;
 import com.ajay.onlinefoodordering.model.Cart;
+import com.ajay.onlinefoodordering.model.USER_ROLE;
 import com.ajay.onlinefoodordering.model.User;
 import com.ajay.onlinefoodordering.repository.CartRepository;
 import com.ajay.onlinefoodordering.repository.UserRepository;
@@ -78,22 +79,22 @@ public class AuthController {
         return new ResponseEntity<>(authResponse, HttpStatus.CREATED);
     }
 
-
-    public  ResponseEntity <AuthResponse> signIn(@RequestBody LoginRequest req ){
+    @PostMapping("/signin")
+    public  ResponseEntity <AuthResponse> signin(@RequestBody LoginRequest req ){
         String username = req.getEmail();
         String password = req.getPassword();
 
         Authentication authentication = authonticate(username,password);
-
+        Collection<? extends GrantedAuthority>authorities = authentication.getAuthorities();
+        String  role = authorities.isEmpty()?null:authorities.iterator().next().getAuthority();
         String jwt = jwtProvider.generateToken(authentication);
 
         AuthResponse authResponse = new AuthResponse();
         authResponse.setJwt(jwt);
-        authResponse.setMassage("Registered user success ");
-        Collection<? extends GrantedAuthority>authorities = authentication.getAuthorities();
+        authResponse.setMassage("Login successfull ");
 
-        String  role = authorities.isEmpty()?null:authorities.iterator().next().getAuthority();
-//        authResponse.setRole(savedUser.getRole());
+
+        authResponse.setRole(USER_ROLE.valueOf(role));
 
         return new ResponseEntity<>(authResponse, HttpStatus.OK);
 
