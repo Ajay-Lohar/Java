@@ -13,3 +13,5 @@ public class Product {
         System.out.println(product2.productId+" " +product2.productName+" "+product2.productPrice);
     }
 }
+
+//Thise is commant
