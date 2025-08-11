@@ -7,11 +7,12 @@ public class Demo6 {
                 System.out.print("* ");
             }
             System.out.println();
-
         }
     }
 }
-//output:-
+
+
+// output:-
 //        * * * * *
 //        * * * *
 //        * * *
